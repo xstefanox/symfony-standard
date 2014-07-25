@@ -1,0 +1,24 @@
+!!! 5
+%html
+    %head
+        %meta(charset="UTF-8")
+        %title
+            - block title ""
+        %link( rel="icon" type="image/x-icon" href=asset("favicon.ico") )
+
+        -#global stylesheets
+        - stylesheets "@bower_css"
+            %link(rel="stylesheet" href=asset_url)
+
+        -#page stylesheets
+        - block stylesheets ""
+
+        -#global javascripts
+        - javascripts "@bower_js"
+            %script(type="text/javascript" src=asset_url)
+
+        -#page javascripts
+        - block javascripts ""
+
+    %body
+        - block body ""

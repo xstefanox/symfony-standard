@@ -17,10 +17,15 @@
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
-        "incenteev/composer-parameter-handler": "~2.0"
+        "incenteev/composer-parameter-handler": "~2.1",
+        "eloquent/composer-npm-bridge": "~2",
+        "mthaml/mthaml-bundle": "@stable",
+        "friendsofsymfony/rest-bundle": "~1.4",
+        "jms/serializer-bundle": "@dev"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3"
+        "sensio/generator-bundle": "~2.3",
+        "leafo/scssphp": "@stable"
     },
     "scripts": {
         "post-root-package-install": [

@@ -23,3 +23,12 @@ monolog:
             level: debug
         console:
             type:  console
+
+assetic:
+    filters:
+        uglifyjs2:
+            bin: %node_modules_bin%/uglifyjs
+            apply_to: "\.js$"
+        uglifycss:
+            bin: %node_modules_bin%/uglifycss
+            apply_to: "\.css$"
