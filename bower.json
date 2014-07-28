@@ -1,9 +1,7 @@
 {
   "name": "symfonyfinal",
   "version": "0.0.0",
-  "authors": [
-    "Stefano Varesi <stefano.varesi@gmail.com>"
-  ],
+  "authors": [],
   "license": "MIT",
   "private": true,
   "ignore": [
@@ -15,6 +13,8 @@
   ],
   "dependencies": {
     "normalize.css": "~3.0",
-    "bootstrap-sass-official": "~3.2"
+    "bootstrap-sass-official": "~3.2",
+    "underscore": "~1.6",
+    "backbone": "~1.1"
   }
 }
