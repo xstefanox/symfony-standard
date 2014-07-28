@@ -33,7 +33,6 @@ twig:
 assetic:
     debug:          "%kernel.debug%"
     use_controller: false
-    bundles:        [ ]
     #java: /usr/bin/java
     filters:
         cssrewrite: ~
@@ -48,7 +47,7 @@ assetic:
 #        sass:
 #            bin: /home/xstefanox/.gem/bin/sass
 #            load_paths:
-#                - %kernel.root_dir%/Resources/public/bootstrap-sass-official/assets/stylesheets
+#                - %assets_dir%/bootstrap-sass-official/assets/stylesheets
 #            apply_to: "\.scss$"
 
         coffee:
@@ -60,6 +59,7 @@ assetic:
         bower_css:
             inputs:
                 - %assets_dir%/normalize.css/normalize.css
+                - %assets_dir%/bootstrap-sass-official/assets/stylesheets/bootstrap.scss
         bower_js:
             inputs:
                 - %assets_dir%/jquery/dist/jquery.min.js
